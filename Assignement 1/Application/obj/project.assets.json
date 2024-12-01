@@ -1,0 +1,104 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "Algorithms/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Algorithms.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Algorithms.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Algorithms/1.0.0": {
+      "type": "project",
+      "path": "../Algorithms/Algorithms.csproj",
+      "msbuildProject": "../Algorithms/Algorithms.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "Algorithms >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Conevo\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\Univerity Assignements\\Full-Stack Developer\\Assignement 1\\Application\\Application.csproj",
+      "projectName": "Application",
+      "projectPath": "D:\\Univerity Assignements\\Full-Stack Developer\\Assignement 1\\Application\\Application.csproj",
+      "packagesPath": "C:\\Users\\Conevo\\.nuget\\packages\\",
+      "outputPath": "D:\\Univerity Assignements\\Full-Stack Developer\\Assignement 1\\Application\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Conevo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "D:\\Univerity Assignements\\Full-Stack Developer\\Assignement 1\\Algorithms\\Algorithms.csproj": {
+              "projectPath": "D:\\Univerity Assignements\\Full-Stack Developer\\Assignement 1\\Algorithms\\Algorithms.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "all"
+      },
+      "SdkAnalysisLevel": "9.0.100"
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
